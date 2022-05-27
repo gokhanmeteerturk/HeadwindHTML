@@ -14,12 +14,20 @@ function processHeadwind(element){
     const s_href = style.getPropertyValue('--s-apply-href');
     const s_child = style.getPropertyValue('--s-child');
     const s_text = style.getPropertyValue('--s-text');
+    const s_target = style.getPropertyValue('--s-target');
+    const s_type = style.getPropertyValue('--s-type');
 
     if(s_tailwind){
       s.className=s_tailwind;
     }
     if(s_href){
       s.setAttribute("href",s_href.replace(/['"]+/g, ''));
+    }
+    if(s_target){
+      s.setAttribute("target",s_target.replace(/['"]+/g, ''));
+    }
+    if(s_type){
+      s.setAttribute("type",s_type.replace(/['"]+/g, ''));
     }
     if(s_child){
       s.classList.add(s_child);
