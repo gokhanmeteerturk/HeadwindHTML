@@ -11,7 +11,7 @@ Headwind HTML let's you write CSS *instead of* HTML. When the page is loaded, yo
 Normally, you would create a html link like this:
 
 ```html
-<a href="http://google.com">Text</button>
+<a href="http://google.com">Text</a>
 ```
 ---
 With Headwind HTML, you can create your link element directly from CSS!!
