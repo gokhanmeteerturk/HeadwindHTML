@@ -1,6 +1,7 @@
 
 function processHeadwind(element){
-  /* RETURNS NEXT SIBLING OR FALSE */
+  // RETURNS NEXT CHILD OR FALSE
+  // instead of "child", code will call it "sibling" of the "after" pseudo element to cause extra pain
   let style = getComputedStyle(element, "::after");
   if(style == false){
 	return style;
