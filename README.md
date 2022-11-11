@@ -8,7 +8,7 @@ Slowly build modern websites without ever leaving your CSS, with HeadwindHTML
 [Try it now (Codepen)](https://codepen.io/gokhanmeteerturk/pen/QWQaaoZ)
 Headwind HTML let's you write CSS *instead of* HTML. When the page is loaded, your css will be parsed and converted to HTML.
 
-Normally, you would create a html link like this:
+Normally, you would create an html link like this:
 
 ```html
 <a href="http://google.com">Text</a>
