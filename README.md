@@ -3,9 +3,13 @@ Create HTML from CSS! A modern javascript library you'd expect Facebook to inven
 
 Slowly build modern websites without ever leaving your CSS, with HeadwindHTML
 
+(note: We dropped Typescript with v0.x)
+
 ## What does it do?
 
 [Try it now (Codepen)](https://codepen.io/gokhanmeteerturk/pen/QWQaaoZ)
+
+
 Headwind HTML let's you write CSS *instead of* HTML. When the page is loaded, your css will be parsed and converted to HTML.
 
 Normally, you would create an html link like this:
