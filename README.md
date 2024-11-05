@@ -83,7 +83,7 @@ No.
 
 
 ## Does it break your console?
-Yes. Headwind HTML is so 2023 that it intentionally overrides console.error function to make your website feel modern and interactive.
+Yes. Headwind HTML is so 2024 that it intentionally overrides console.error function to make your website feel modern and interactive.
 
 
 ## Should I use it?
